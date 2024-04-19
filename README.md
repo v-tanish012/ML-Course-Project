@@ -10,7 +10,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Steps
 
-### 1. Download the Notebook
+### 1. Clone the repository
 
 Download or clone this repository. Make sure to save it in a directory on your local machine where you can easily access it.
 
@@ -19,10 +19,9 @@ Download or clone this repository. Make sure to save it in a directory on your l
 Open a terminal or command prompt and navigate to the directory where you saved the notebook. Install the required Python packages using pip:
 
 ```bash
-pip install scikit-learn pandas numpy jupyter
+pip install scikit-learn pandas numpy matplotlib seaborn plotly xgboost lightgbm jupyter
 ```
-
-Replace `scikit-learn pandas numpy` with the names of any other required packages listed in the notebook's dependencies.
+Install any other packages if required.
 
 ### 3. Launch Jupyter Notebook
 
@@ -36,7 +35,7 @@ This will open a new tab in your web browser with the Jupyter Notebook interface
 
 ### 4. Open the Notebook
 
-Navigate to the directory where you saved the Kaggle notebook and open it by clicking on its filename.
+Navigate to the directory where you cloned/saved the Kaggle notebook and open it by clicking on its filename.
 
 ### 5. Update File Paths (if necessary)
 
@@ -44,4 +43,4 @@ If the notebook uses datasets or files with specific file paths that are not ava
 
 ### 6. Run the Notebook
 
-Run the notebook cells one by one or all at once to execute the code. Verify that the results match those described in the notebook.
+Run the notebook cells one by one or all at once to execute the code.
